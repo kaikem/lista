@@ -1,16 +1,19 @@
 html {
-    background: linear-gradient(177.52deg, #4574E3 2.11%, #154580 81.34%);
+    background: linear-gradient(177.52deg, #4574E3 2.11%, #02152c 81.34%);
     background-repeat: no-repeat;
     height: 100%;
 }
 
 body {
-    font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2, footer {
-    font-family: 'Mansalva';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+ footer{
+    margin-top: 20px;
+ }
 
 button {
     border: none;
