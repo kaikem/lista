@@ -48,7 +48,7 @@ function mostrarItens(){
             ulItensComprados.innerHTML += `<li class="item-compra is-flex is-justify-content-space-between" data-value="${indice}">
             <div>
                 <input type="checkbox" checked class="is-clickable" />  
-                <span class="itens-comprados is-size-5">${elemento.valor}</span>
+                <span class="itens-comprados is-size-3">${elemento.valor}</span>
             </div>
             <div>
                 <i class="fa-solid fa-trash is-clickable deletar"></i>
