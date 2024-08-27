@@ -6,6 +6,7 @@ const inputItens = document.getElementById('receber-item');
 const ulItens = document.querySelector("#lista-de-itens");
 const ulItensComprados = document.querySelector("#itens-comprados");
 const listaRecuperada = localStorage.getItem('listadeItens');
+inputItens.focus();
 
 function atualizaLocalStorage(){
     localStorage.setItem('listadeItens', JSON.stringify(listadeItens));
@@ -64,7 +65,8 @@ function mostrarItens(){
                 ${indice === Number(itemAEditar)? '<button onclick="salvarEdicao()"><i class="fa-regular fa-floppy-disk is-clickable"></i></button>':'<i class="fa-regular is-clickable fa-pen-to-square editar"></i>'}
                 <i class="fa-solid fa-trash is-clickable deletar"></i>
             </div>
-        </li>`;
+            </li>
+            <hr>`;
         };
     });
 

@@ -39,3 +39,10 @@ input {
     color: black;
 }
 
+hr {
+    background-color: black;
+    color: black;
+    height: 2px;
+    margin: 0 0 2px 0;
+}
+
